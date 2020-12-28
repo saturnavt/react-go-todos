@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// IMPORT TODOS COMPONENTS
+import Todos from './Components/Todos/todos';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Todos />
   </React.StrictMode>,
   document.getElementById('root')
 );
