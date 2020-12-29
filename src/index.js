@@ -6,10 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 // IMPORT TODOS COMPONENTS
 import Todos from './Components/Todos/todos';
+import TodosClasses from './Components/Todos/todosClass';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Todos />
+    <TodosClasses />
   </React.StrictMode>,
   document.getElementById('root')
 );
